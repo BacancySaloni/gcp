@@ -44,3 +44,11 @@ gcloud container clusters delete hello-cluster \
     --location us-central1
 
 
+For standard cluster : 
+gcloud container clusters create \
+--machine-type n1-standard-2 \
+--num-nodes 3\
+--zone zone \
+--cluster-version latest \
+<CLUSTERNAME>
+
